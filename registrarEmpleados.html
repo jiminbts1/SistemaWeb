@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Optica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo1.css">
+</head>
+<body >
+<header>
+   <div class="contenedor">
+      <nav>
+        <ul>
+           <li class="actual"><a href="indexAdmin.php">Inicio</a></li>
+           <li><a href="empleados.php">Regresar</a></li>
+           <li><a href="empleados.php">Empleados</a></li>
+     
+        
+           
+         </ul>
+      </nav>
+     </div>
+</header>
+
+  <section id="boletin">
+    <h1>Registrar productos</h1>
+  </section>
+
+<div id="contenedor">
+  <form method="POST" action="../backend/registrarEmpleados.php">
+    <h2>Registro</h2>
+     
+
+     <div>
+      <input type="text" id="nombre" name="nombre" value="" required placered placeholder="nombre"/>
+     </div>
+
+
+     <div>
+      <input type="text" id="apellidos" name="apellidos" value="" required placered placeholder="apellidos"/>
+     </div>
+
+     <div>
+      <input type="text" id="telefono" name="telefono" value="" required placered placeholder="telefono"/>
+     </div>
+
+     <div>
+      <input type="text" id="correo" name="correo" value="" required placered placeholder="correo"/>
+     </div>
+
+
+   <div>
+      <input name="guardar" type="submit" value="Registrar" />
+     </div>
+</body>
+</html>
+

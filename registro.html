@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Optica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo1.css">
+</head>
+<body >
+<header>
+   <div class="contenedor">
+      <nav>
+        <ul>
+           <li class="actual"><a href="index.html">Inicio</a></li>
+           <li><a href="catalogo.html">Productos</a></li>
+           <li><a href="login.html">Login</a></li>
+         </ul>
+      </nav>
+     </div>
+</header>
+
+  <section id="boletin">
+  </section>
+
+<div id="contenedor">
+  <form method="POST" action="../backend/registro.php">
+   <fieldset>
+    <h2>Registro</h2>
+     
+
+     <div>
+      <input type="text" id="nombre" name="nombre" value="" required placered placeholder="Nombre"/>
+     </div>
+
+
+     <div>
+      <input type="text" id="apellido" name="apellido" value="" required placered placeholder="Apellido"/>
+     </div>
+
+     <div>
+      <input type="text" id="domicilio" name="domicilio" value="" required placered placeholder="Domicilio"/>
+     </div>
+
+     <div>
+      <input type="text" id="telefono" name="telefono" value="" required placered placeholder="Teléfono"/>
+     </div>
+
+     <div>
+      <input type="text" id="correo" name="correo" value="" required placered placeholder="Correo"/>
+    </div>
+
+
+     <div>
+      <input type="password" id="contrasena" name="contrasena" value="" required placered placeholder="Contraseña"/>
+     </div>
+
+   <div>
+      <input name="guardar" type="submit" value="Registrar" />
+     </div>
+
+
+   </fieldset>
+  </form>
+ </div>
+</body>
+</html>
+
